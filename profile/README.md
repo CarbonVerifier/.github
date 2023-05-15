@@ -1,4 +1,4 @@
-# Carbon Verifier
+# Carbon Tracker
 
 <!--
 
@@ -11,23 +11,22 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-Introducing CarbonVerifier, a project that utilizes IoT devices and blockchain technology to generate carbon credits and incentivize climate action.
+Introducing CarbonTracker, an innovative project that harnesses the power of IoT devices and blockchain technology to monitor and quantify the amount of carbon emitted by companies. Our cutting-edge platform allows these emissions to be efficiently and transparently offset, promoting sustainable practices and encouraging businesses to take action to reduce their carbon footprint.
 
-Our project aims to provide a transparent and secure way for companies to offset their carbon emissions, eliminating the need for trust in third-party verification. By monitoring climate action projects with IoT sensors, we can accurately measure emissions and mint carbon tokens based on the sensor readings.
+Our mission is to provide a secure and transparent solution for companies to monitor and offset their carbon emissions. By leveraging IoT sensors, we can precisely monitor climate action and accurately measure the exact amount of carbon emissions. Based on this information, our platform determines the amount of carbon credits needed to offset a company's emissions.
 
-The carbon tokens serve as proof of carbon offsetting and can be traded on the blockchain. Anyone can verify a company's emissions and validate the carbon token, promoting greater transparency and auditability. Furthermore, the democratization of the carbon offset market, which allows anyone to purchase these credits, not just companies, encourages more widespread sustainable practices.
+Monitoring carbon emissions not only helps companies comply with carbon emission regulations but also enables them to identify areas where they can reduce emissions and cut costs.
 
-CarbonVerifier combines the power of IoT and blockchain technology to create a more efficient and effective way to tackle climate change. Our project promotes sustainable practices and encourages companies to take action to reduce their carbon footprint.
+In addition to cost savings, social responsibility is a compelling reason for companies to monitor their carbon emissions. Companies can demonstrate their commitment to mitigating climate change and contributing to the reduction of greenhouse gas emissions, thereby improving their image and reputation. This is especially important among consumers who prioritize sustainability.
 
-Join us in the fight against climate change, as we use technology to create a more sustainable future. Let's make carbon offsetting accessible to all and create positive change for the planet.
+Join us in our fight against climate change by leveraging technology to create a more sustainable future. Together, we can make carbon offsetting accessible to all and create positive change for the planet.
 
-## Verifying carbon offsets
-CarbonVerifier's business logic relies on a smart contract that receives and analyzes sensor data to determine whether a company is eligible for carbon credit token minting. The smart contract is unique to each company and checks the sensor readings against predetermined threshold values during a specified period.
+## How the solutions works
 
-For natural reserves, CarbonVerifier uses various sensors, such as a sound sensor that has a threshold of 80 decibels to detect chainsaw and other damaging human activities. In addition, a temperature sensor detects 21 to 30 degrees Celsius, air humidity ranges from 80-80% for optimal development in a rainforest, and soil humidity should be within the range of 30-35% for good plant growth in tropical forests. CarbonVerifier also sets a threshold of 350-440 ppm of CO2 in the air to ensure that the rainforest is absorbing carbon at a sufficient rate.
+CarbonTracker's business logic relies on a smart contract that receives and analyzes sensor data to determine the amount of carbon that needs to be offset for each company. The smart contract is unique to each company and stores information related to CO2 emissions.
 
-In the case of wind turbines, CarbonVerifier takes into account electricity grid sensors that estimate CO2 emissions based on the electricity generated, as well as CO2 levels in the air. This approach ensures that the turbines are reducing CO2 emissions effectively.
+CarbonTracker uses cutting-edge technology to help companies offset their carbon emissions. A gas sensor is used to capture the amount of carbon emitted, and the data is transmitted via the MQTT protocol to a backend, where it is stored on the blockchain using EtherJS.
+On the frontend, the solution allows companies to purchase carbon credits from Toucan, and by buying a token, it's possible to offset the amount of carbon emitted by "retiring" the token and contributing to a more sustainable future. In addition, all transactions related to the purchase of carbon credits are recorded on the blockchain, making the information transparent and easily accessible to all involved in the platform.
 
-If the average sensor readings exceed the predetermined thresholds, the smart contract will not mint any carbon credit tokens. However, if the average sensor readings remain within the acceptable thresholds, the smart contract will mint new carbon credit tokens for the corresponding company address.
+To further encourage companies to commit to offsetting their carbon emissions, the CarbonTracker solution includes a leaderboard. This feature shows the companies that are offsetting the most carbon emissions and recognizes and encourages companies to lead the way towards a more sustainable future.
 
-CarbonVerifier's approach provides transparency and trust in carbon emission offsetting. Furthermore, the ability for anyone to buy carbon credit tokens, not just other companies, incentivizes and stimulates the market for climate change efforts, promoting more sustainable practices and a more sustainable future.
